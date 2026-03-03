@@ -10,6 +10,10 @@ A credit risk analytics project using **1.35M+ consumer loans** to quantify defa
 - Expected loss is concentrated in mid-tier grades, with **Grade C** contributing the highest expected loss (exposure-heavy segment).
 - Built a Logistic Regression baseline model with **ROC-AUC ~0.70**.
 - Tuned probability thresholds for business use (example: threshold 0.2 improved recall from ~7% to ~63% with precision ~32%).
+## Key Insights
+- Default rate increases monotonically from Grade A (~6%) to Grade G (~50%).
+- Expected loss concentrates in mid grades (Grade C highest), showing exposure-driven risk concentration.
+- Risk scores are right-skewed; most loans cluster in lower score bins with a long tail of high-risk loans.
 
 ## Dashboard Preview
 ![Dashboard](images/dashboard_full.png)
